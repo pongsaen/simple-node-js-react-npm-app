@@ -1,11 +1,10 @@
 pipeline {
     agent any
-    states{
-        state('Build'){
+    stages{
+        stage('Build'){
 
             steps{
                 bat 'npm install'
-
             }
 
         }
