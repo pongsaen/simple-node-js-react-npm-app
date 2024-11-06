@@ -9,6 +9,14 @@ pipeline {
 
         }
 
+        stage('Run Powershell'){
+
+            steps{
+                powershell 'C:/my-script/Untitled1'
+            }
+
+        }
+
 
     }
 }
